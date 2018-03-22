@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shopping_style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<body>
+<div class="helper">
+    <div class="main-content">
+        <header class="header">
+            <div class="container header-top">
+
+                <a href="index.html" class="logo header-top__logo"><img src="img/logo.png" alt="логотип"></a>
+                <a href="index.html"><span class="bran">BRAN</span><span class="brand">D</span></a>
+
+
+                <div class="browse-all"><a href="#" class="browse1"><div class="browse">Browse <i class="fa fa-caret-down" aria-hidden="true"></i></div></a>
+                    <nav><div class="browse-menu">
+                        <a href="single_page.html" class="women1">Women</a>
+                        <ul class="menu-first">
+                        <li><a href="#">Dresses</a></li>
+                        <li><a href="#">Tops</a></li>
+                        <li><a href="#">Sweaters/Knits</a></li>
+                        <li><a href="#">Jackets/Coats</a></li>
+                        <li><a href="#">Blazers</a></li>
+                        <li><a href="#">Denim</a></li>
+                        <li><a href="#">Leggings/Pants</a></li>
+                        <li><a href="#">Skirts/Shorts</a></li>
+                        <li><a href="#">Accessories </a></li>
+                    </ul>
+
+                        <a href="product.html" class="women1">Men</a>
+                        <ul class="menu-first">
+                            <li><a href="#">Tees/Tank tops</a></li>
+                            <li><a href="#">Shirts/Polos</a></li>
+                            <li><a href="#">Sweaters</a></li>
+                            <li><a href="#">Sweatshirts/Hoodies</a></li>
+                            <li><a href="#">Blazers</a></li>
+                            <li><a href="#">Jackets/vests</a></li>
+
+                        </ul></div></nav>
+
+                </div>
+                <form action="#">
+                    <input type="text" placeholder="Search for Item..." class="place">
+                    <div class="search"><button type="submit" ><i class="fa fa-search" aria-hidden="true"></i></button></div>
+                </form>
+
+                <div class="account"><a href="#">My Account <i class="fa fa-caret-down" aria-hidden="true"></i></a></div>
+
+            </div>
+        </header>
+        <nav>
+            <div class="container">
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Man</a>
+                        <div class="mega-helper"><div class="mega-menu">
+                            <div class="mega2">
+                                <a href="single_page.html" class="menu-description">WOMEN</a>
+                                <ul>
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">Sweaters/Knits</a></li>
+                                    <li><a href="#">Jackets/Coats</a></li>
+                                    <li><a href="#">Blazers</a></li>
+                                    <li><a href="#">Denim</a></li>
+                                    <li><a href="#">Leggings/Pants</a></li>
+                                    <li><a href="#">Skirts/Shorts</a></li>
+                                    <li><a href="#">Accessories</a></li>
+
+                                </ul></div>
+
+                            <div class="mega2">
+                                <a href="single_page.html" class="menu-description">WOMEN</a>
+                                <ul>
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">Sweaters/Knits</a></li>
+                                    <li><a href="#">Jackets/Coats</a></li>
+
+                                </ul>
+
+                                <div class="mega2 mega3">
+                                    <a href="single_page.html" class="menu-description">WOMEN</a>
+                                    <ul>
+                                        <li><a href="#">Dresses</a></li>
+                                        <li><a href="#">Tops</a></li>
+                                        <li><a href="#">Sweaters/Knits</a></li>
+
+                                    </ul></div></div>
+
+                            <div class="mega2">
+                                <a href="single_page.html" class="menu-description">WOMEN</a>
+                                <ul>
+                                    <li><a href="#">Dresses</a></li>
+                                    <li><a href="#">Tops</a></li>
+                                    <li><a href="#">Sweaters/Knits</a></li>
+                                    <li><a href="#">Jackets/Coats</a></li>
+
+                                </ul>
+                                <img src="img/layer-42.png" alt=""></div>
+                        </div></div></li>
+
+                    <li><a href="single_page.html">Women</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Accoseriese</a></li>
+                    <li><a href="#">Featured</a></li>
+                    <li><a href="#">Hot Deals</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="fornew">
+        <div class="new">
+            <section><a href="single_page.html"><h2>Your Cart</h2></a></section>
+            <div class="new-arrivals"><nav><a href="index.html">Home/</a><a href="product.html">Men/</a><span class="new-arrivals1"><a href="#">Your cart</a></span></nav></div>
+        </div>
+        </div>
+
+        <table class="container tablica">
+            <tr class="first-line">
+                <td class="first-block">Product Details</td>
+                <td>unite Price</td>
+                <td>Quantity	</td>
+                <td>shipping</td>
+                <td>Subtotal	</td>
+                <td>ACTION</td>
+            </tr>
+
+           <table class="container tablica" id="cartTable"></table>
+        </table>
+
+
+
+        <!--<table class="container tablica">-->
+
+
+            <!--<tr class="first-line">-->
+                <!--<td class="first-block">Product Details</td>-->
+                <!--<td>unite Price</td>-->
+                <!--<td>Quantity	</td>-->
+                <!--<td>shipping</td>-->
+                <!--<td>Subtotal	</td>-->
+                <!--<td>ACTION</td>-->
+            <!--</tr>-->
+
+            <!--<tr id="30">-->
+                <!--<td class="first-block"><div class="mango-product">-->
+                    <!--<a href="#" class="rectangle"><img src="img/Rectangle%2026.png" alt=""></a>-->
+                    <!--<div class="item1"><a href="#" class="mango item1__mango">Mango  People  T-shirt</a>-->
+                        <!--<div>-->
+                            <!--<p>Color:   <span class="color">Red</span></p>-->
+                            <!--<p>  Size:   <span class="color">Xll</span></p></div></div>-->
+                <!--</div></td>-->
+                <!--<td>$150</td>-->
+                <!--<td><input type="number" value="2"></td>-->
+                <!--<td>FREE</td>-->
+                <!--<td>$300</td>-->
+                <!--<td><div class="xxx" onclick="DeleteElementFromCartHandler('30')"><i class="fa fa-times-circle" aria-hidden="true"></i></div></td>-->
+            <!--</tr>-->
+
+            <!--<tr>-->
+                <!--<td class="first-block"><div class="mango-product">-->
+                    <!--<a href="#" class="rectangle"><img src="img/Rectangle%20265.png" alt=""></a>-->
+                    <!--<div class="item1"><a href="#" class="mango item1__mango">Mango  People  T-shirt</a>-->
+                        <!--<div>-->
+                            <!--<p>Color:   <span class="color">Red</span></p>-->
+                            <!--<p>  Size:   <span class="color">Xll</span></p></div></div>-->
+                <!--</div></td>-->
+                <!--<td>$150</td>-->
+                <!--<td><input type="number" value="2"></td>-->
+                <!--<td>FREE</td>-->
+                <!--<td>$300</td>-->
+                <!--<td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>-->
+            <!--</tr>-->
+            <!--<tr>-->
+                <!--<td class="first-block"><div class="mango-product">-->
+                    <!--<a href="#" class="rectangle"><img src="img/Rectangle%20261.png" alt=""></a>-->
+                    <!--<div class="item1"><a href="#" class="mango item1__mango">Mango  People  T-shirt</a>-->
+                        <!--<div>-->
+                            <!--<p>Color:   <span class="color">Red</span></p>-->
+                            <!--<p>  Size:   <span class="color">Xll</span></p></div></div>-->
+                <!--</div></td>-->
+                <!--<td>$150</td>-->
+                <!--<td><input type="number" value="2"></td>-->
+                <!--<td>FREE</td>-->
+                <!--<td>$300</td>-->
+                <!--<td><a href="#"><i class="fa fa-times-circle" aria-hidden="true"></i></a></td>-->
+            <!--</tr>-->
+        <!--</table>-->
+
+              <form class=" container shopping-list" action="#">
+            <button class="clear" type="reset" id="remove-all">CLEAR SHOPPING CART</button>
+            <button class="clear clear1" type="submit">CONTINUE SHOPPING</button>
+        </form>
+
+        <form class="container your-data" action="#">
+           <div class="shipping">
+               <h2 class="shipp shipping__adress">Shipping Adress</h2>
+               <select class="select-city" name="city" id="city">
+                   <option value="Bangladesh">Bangladesh</option>
+               </select>
+                   <input class="your-state" type="text" placeholder="State">
+                   <input class="your-state" type="text" placeholder="Postcode / Zip">
+               <button class="get-quote" type="submit">get a quote</button>
+           </div>
+            <div class="coupon">
+                <h2 class="shipp">coupon  discount</h2>
+                <label for="code">Enter your coupon code if you have one<br> <input class="your-state state1" type="text" id="code" placeholder="State"></label>
+                <button class="get-quote" type="submit">Apply coupon</button>
+            </div>
+            <div class="proceed">
+                <div class="text-box">
+
+                <h3><span class="grand">GRAND</span> TOTAL: <span id="TotalSum"></span></h3>
+                </div>
+                <div class="checkout"><a href="checkout.html">proceed to checkout</a></div>
+            </div>
+        </form>
+
+        <section class="popular">
+            <a href="#" class="fetured fetured-carousel"><h2>THIS WEEK'S SALE -50%</h2></a>
+
+            <div class="container-carousel">
+
+                <div class="button-left">
+                    <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+                </div>
+
+                <div class="button-right">
+                    <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+                </div>
+
+                <div class="carousel-wrapper">
+
+                    <div class="carousel-items">
+
+                        <div class="block">
+                            <a href="#" class="image">
+                                <img id="11" src="img/layer-2.png" alt="" />
+                            </a>
+
+                            <a href="#" class="clothes">Mango  People  T-shirt</a>
+                            <a href="#"><span class="dollar">$26.00</span></a>
+
+                            <button class="add-to1" onclick="cartAddProductHandler({id:'11',name:'Mango  People  T-shirt',price:'26.00',img:'img/layer-2.png'})">
+                                <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                            </button>
+
+                        </div>
+
+                        <div class="block">
+                            <a href="#" class="image">
+                                <img id="12" src="img/Rectangle%205%20copy.png" alt="" />
+                            </a>
+
+                            <a href="#" class="clothes">Mango  People  T-shirt</a>
+                            <a href="#"><span class="dollar">$26.00</span></a>
+
+                            <button class="add-to1" onclick="cartAddProductHandler({id:'12',name:'Mango  People  T-shirt',price:'26.00',img:'img/Rectangle%205%20copy.png'})">
+                                <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                            </button>
+                        </div>
+
+                        <div class="block">
+                            <a href="#" class="image">
+                                <img id="13" src="img/2-layers%20(1).png" alt="" />
+                            </a>
+
+                            <a href="#" class="clothes">Mango  People  T-shirt</a>
+                            <a href="#"><span class="dollar">$26.00</span></a>
+
+                            <button class="add-to1" onclick="cartAddProductHandler({id:'13',name:'Mango  People  T-shirt',price:'26.00',img:'img/2-layers%20(1).png'})">
+                                <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                            </button>
+                        </div>
+
+                        <div class="block">
+                            <a href="#" class="image">
+                                <img id="14" src="img/tr.png" alt="" />
+                            </a>
+
+                            <a href="#" class="clothes">Mango  People  T-shirt</a>
+                            <a href="#"><span class="dollar">$26.00</span></a>
+
+                            <button class="add-to1" onclick="cartAddProductHandler({id:'14',name:'Mango  People  T-shirt',price:'26.00',img:'img/tr.png'})">
+                                <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                            </button>
+                        </div>
+
+                        <div class="block">
+                            <a href="#" class="image">
+                                <img id="15" src="img/layer-3.png" alt="" />
+                            </a>
+
+                            <a href="#" class="clothes">Mango  People  T-shirt</a>
+                            <a href="#"><span class="dollar">$26.00</span></a>
+
+                            <button class="add-to1" onclick="cartAddProductHandler({id:'15',name:'Mango  People  T-shirt',price:'26.00',img:'img/layer-3.png'})">
+                                <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="subscribe">
+            <div class="subscribe1">
+
+                <div class="burhan">
+                    <img src="img/layer-40.png" alt="" class="head">
+                    <div class="text3">
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+                        <h3>Bin Burhan</h3>
+                        <h4>Dhaka, Bd</h4>
+                        <div class="angles">
+                            <a href="#"><div class="angle22"></div></a>
+                            <a href="#"><div class="angle22 angle23"></div></a>
+                            <a href="#"><div class="angle22"></div></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="letter">
+                    <div class="text4">
+                        <h2>Subscribe</h2>
+                        <h3> FOR OUR NEWLETTER AND PROMOTION</h3></div>
+                    <form class="forma" action="#">
+                        <input class="enter" type="email" placeholder="Enter Your Email">
+                        <button class="send" type="submit">Subscribe</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <footer class="footer">
+        <div class="container footer1">
+            <div class="information">
+                <div class="text5"><div class="down-top"><a href="index.html" class="logo"><img src="img/logo.png" alt="логотип"></a>
+                    <a href="index.html"><span class="bran">BRAN</span><span class="brand">D</span></a></div>
+                    <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+
+                        <p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+                            Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+
+                        </p></div>
+                <nav>
+                    <div class="navigation1">
+                        <div class="menuu1 company1">
+                            <a href="#" class="special">COMPANY</a>
+                            <ul class="menuu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">How It Works</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="menuu1 info">
+                            <a href="#" class="special">INFORMATION</a>
+                            <ul class=" menuu">
+                                <li><a href="#">Tearms & Condition</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">How to Buy</a></li>
+                                <li><a href="#">How to Sell</a></li>
+                                <li><a href="#">Promotion</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="menuu1">
+                            <a href="#" class="special">SHOP CATEGORY</a>
+                            <ul class="menuu">
+                                <li><a href="product.html">Men</a></li>
+                                <li><a href="single_page.html">Women</a></li>
+                                <li><a href="#">Child</a></li>
+                                <li><a href="#">Apparel</a></li>
+                                <li><a href="#">Brows All</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="down">
+            <div class="container down1">
+                <p>© 2017  Brand  All Rights Reserved.</p>
+                <div class="icons"><a href="https://www.facebook.com/" target="_blank"><div class="fb">f</div></a>
+                    <a href="https://twitter.com/?lang=ru" target="_blank"><div class="bird"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+                    <a href="https://ru.linkedin.com/" target="_blank"><div class="in">in</div></a>
+                    <a href="https://ru.pinterest.com/" target="_blank"><div class="fb"><i class="fa fa-pinterest-p" aria-hidden="true"></i></div></a>
+                    <a href="https://plus.google.com/" target="_blank"><div class="fb"><i class="fa fa-google-plus" aria-hidden="true"></i></div></a></div></div>
+        </div>
+
+    </footer>
+</div>
+
+<script src="js/carousel.js"></script>
+<script src="js/cart-main.js"></script>
+    </body>
+
+</html>
