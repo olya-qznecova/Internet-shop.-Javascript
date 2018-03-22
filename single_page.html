@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/singlepage_style.css">
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.js"></script>
+    </head>
+
+<body>
+<div class="helper">
+ <div class="main-content">
+  <header class="header">
+      <div class="container header_top">
+        
+            <a href="index.html" class="logo"><img src="img/logo.png" alt="логотип"></a>
+            <a href="index.html"><span class="bran">BRAN</span><span class="brand">D</span></a>
+                         
+          <div class="browse-all"><a href="#" class="browse1"><div class="browse">Browse <i class="fa fa-caret-down" aria-hidden="true"></i></div></a>
+            <nav><div class="browse-menu">
+                <a href="single_page.html" class="women1">Women</a>
+                <ul class="menu-first">
+                <li><a href="#">Dresses</a></li>
+            <li><a href="#">Tops</a></li>
+            <li><a href="#">Sweaters/Knits</a></li>
+            <li><a href="#">Jackets/Coats</a></li>
+            <li><a href="#">Blazers</a></li>
+            <li><a href="#">Denim</a></li>
+            <li><a href="#">Leggings/Pants</a></li>
+            <li><a href="#">Skirts/Shorts</a></li>
+            <li><a href="#">Accessories </a></li>
+                </ul>
+
+                <a href="product.html" class="women1">Men</a>
+                <ul class="menu-first">
+                <li><a href="#">Tees/Tank tops</a></li>
+            <li><a href="#">Shirts/Polos</a></li>
+            <li><a href="#">Sweaters</a></li>
+            <li><a href="#">Sweatshirts/Hoodies</a></li>
+            <li><a href="#">Blazers</a></li>
+            <li><a href="#">Jackets/vests</a></li>
+
+            </ul></div></nav>
+            
+            </div>
+            <form action="#">
+                <input type="text" placeholder="Search for Item..." class="place">
+                <div class="search"><button type="submit" ><i class="fa fa-search" aria-hidden="true"></i></button></div>
+            </form>
+
+          <div class="purchases">
+
+              <a href="shopping.html" class="purchase"><i class="cart-img fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+
+              <div id="your-cart">
+
+                  <div id="yourItem"></div>
+
+                  <div class="total"><h2>TOTAL</h2>
+                      <h2 id="TotalSum">$0.00</h2></div>
+                  <a href="checkout.html"><div class="check-out second">Checkout</div></a>
+                  <a href="shopping.html"><div class="check-out second">Go to cart</div></a>
+                  <button class="check-out second" id="remove-all">Remove All</button>
+              </div>
+
+          </div>
+
+            <div class="account"><a href="#">My Account <i class="fa fa-caret-down" aria-hidden="true"></i></a></div>
+                        
+      </div>
+  </header>
+  <nav>
+      <div class="container">
+          <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="product.html">Man</a>
+                  <div class="mega-helper"><div class="mega-menu">
+                      <div class="mega2">
+                          <a href="single_page.html" class="menu-description">WOMEN</a>
+                          <ul>
+                              <li><a href="#">Dresses</a></li>
+                              <li><a href="#">Tops</a></li>
+                              <li><a href="#">Sweaters/Knits</a></li>
+                              <li><a href="#">Jackets/Coats</a></li>
+                              <li><a href="#">Blazers</a></li>
+                              <li><a href="#">Denim</a></li>
+                              <li><a href="#">Leggings/Pants</a></li>
+                              <li><a href="#">Skirts/Shorts</a></li>
+                              <li><a href="#">Accessories</a></li>
+
+                          </ul></div>
+
+                      <div class="mega2">
+                          <a href="single_page.html" class="menu-description">WOMEN</a>
+                          <ul>
+                              <li><a href="#">Dresses</a></li>
+                              <li><a href="#">Tops</a></li>
+                              <li><a href="#">Sweaters/Knits</a></li>
+                              <li><a href="#">Jackets/Coats</a></li>
+
+                          </ul>
+
+                          <div class="mega2 mega3">
+                              <a href="single_page.html" class="menu-description">WOMEN</a>
+                              <ul>
+                                  <li><a href="#">Dresses</a></li>
+                                  <li><a href="#">Tops</a></li>
+                                  <li><a href="#">Sweaters/Knits</a></li>
+
+                              </ul></div></div>
+
+                      <div class="mega2">
+                          <a href="single_page.html" class="menu-description">WOMEN</a>
+                          <ul>
+                              <li><a href="#">Dresses</a></li>
+                              <li><a href="#">Tops</a></li>
+                              <li><a href="#">Sweaters/Knits</a></li>
+                              <li><a href="#">Jackets/Coats</a></li>
+
+                          </ul>
+                          <img src="img/layer-42.png" alt=""></div>
+                  </div></div></li>
+
+              <li><a href="single_page.html">Women</a></li>
+              <li><a href="#">Kids</a></li>
+              <li><a href="#">Accoseriese</a></li>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Hot Deals</a></li>
+          </ul>
+      </div>
+  </nav>
+
+     <div class="fornew">
+ <div class="new">
+        <section><a href="#"><h2>New Arrivals</h2></a></section>
+        <nav><div class="new-arrivals"><a href="index.html">Home/</a><a href="#">Women/</a><span class="new-arrivals1"><a href="#">New Arrivals</a></span></div></nav>
+ </div>
+     </div>
+ 
+ <div id="carouselExampleControls" class="carousel part" data-ride="carousel">
+ 
+  <div class="carousel-inner">
+    <div class="carousel">
+      <img class="ddd" src="img/white.png" alt="First slide">
+          </div>
+    
+      </div>
+      
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only"><i class="fa fa-angle-left fa-2x" aria-hidden="true"></i></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></span>
+  </a>
+  
+   <div class="container for-women">
+   <div class="women-collection">
+      <section><div class="moschino">
+       <h3 class="collection1">WOMEN COLLECTION</h3>
+       <h2>Moschino Cheap And Chic</h2>
+       <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals. </p>
+       <div class="material"><div>MATERIAL: <span class="cotton">COTTON</span></div>
+       <div>DESIGNER: <span class="cotton">BINBURHAN</span></div></div>
+       <h3 class="price-women">$561</h3></div></section>
+   </div>
+      <div class="choise">
+          <label for="choose"><span class="choose-color">CHOOSE COLOR</span>
+          <select class="chooze" name="choose" id="choose">
+              <option value="Name">Red</option>
+          </select></label>
+
+          <label for="xxl"><span class="choose-color">CHOOSE SIZE</span>
+              <select class="chooze" name="xxl" id="xxl">
+                  <option value="xxl">XXL</option>
+              </select></label>
+
+          <label for="quantity"><span class="choose-color">QUANTITY</span>
+              <input type="text" value="2" id="quantity" class="chooze"></label>
+
+              </div>
+       <div class="add-choise"><a href="#"><i class="fa fa-shopping-cart fa" aria-hidden="true"></i> Add to Cart</a></div>
+       </div></div>
+   
+   <section><div class="like"><h2>you may like also</h2>
+   <div class="container products product-trends mayalsolike">
+
+              <div class="product1">
+              <a href="#"><img id="32" src="img/tr.png" alt="" class="people"></a>
+              <a href="#" class="clothes">BLAZE LEGGINGS</a>
+              <a href="#"><span class="dollar">$52.00</span></a>
+
+                  <button class="add-to" onclick="cartAddProductHandler({id:'32',name:'BLAZE LEGGINGS',price:'52.00',img:'img/tr.png'})">
+                      <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                  </button>
+
+              </div>
+
+              <div class="product1">
+              <a href="#"><img src="img/skirt.png" id="30" alt="" class="people"></a>
+              <a href="#" class="clothes">ALEXA SWEATER</a>
+              <a href="#"><span class="dollar">$52.00</span></a>
+
+                  <button class="add-to" onclick="cartAddProductHandler({id:'30',name:'ALEXA SWEATER',price:'52.00',img:'img/skirt.png'})">
+                      <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                  </button>
+
+              </div>
+
+              <div class="product1">
+              <a href="#"><img src="img/yellow.png" id="31" alt="" class="people"></a>
+              <a href="#" class="clothes">AGNES TOP</a>
+              <a href="#"><span class="dollar">$52.00</span></a>
+
+                  <button class="add-to" onclick="cartAddProductHandler({id:'31',name:'AGNES TOP',price:'52.00',img:'img/yellow.png'})">
+                      <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                  </button>
+              </div>
+                          
+              
+              <div class="product1">
+              <a href="#"><img src="img/Rectangle%205%20copy.png" id="33" alt="" class="people"></a>
+              <a href="#" class="clothes">SYLVA SWEATER</a>
+              <a href="#"><span class="dollar">$52.00</span></a>
+
+                  <button class="add-to" onclick="cartAddProductHandler({id:'33',name:'SYLVA SWEATER',price:'52.00',img:'img/Rectangle%205%20copy.png'})">
+                      <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                  </button>
+       </div></div>
+   </div></section>
+
+     <section class="popular">
+         <a href="#" class="fetured fetured-carousel"><h2>THIS WEEK'S SALE -50%</h2></a>
+
+         <div class="container-carousel">
+
+             <div class="button-left">
+                 <i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+             </div>
+
+             <div class="button-right">
+                 <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+             </div>
+
+             <div class="carousel-wrapper">
+
+                 <div class="carousel-items">
+
+                     <div class="block">
+                         <a href="#" class="image">
+                             <img id="11" src="img/layer-2.png" alt="" />
+                         </a>
+
+                         <a href="#" class="clothes">Mango  People  T-shirt</a>
+                         <a href="#"><span class="dollar">$26.00</span></a>
+
+                         <button class="add-to1" onclick="cartAddProductHandler({id:'11',name:'Mango  People  T-shirt',price:'26.00',img:'img/layer-2.png'})">
+                             <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                         </button>
+
+                     </div>
+
+                     <div class="block">
+                         <a href="#" class="image">
+                             <img id="12" src="img/Rectangle%205%20copy.png" alt="" />
+                         </a>
+
+                         <a href="#" class="clothes">Mango  People  T-shirt</a>
+                         <a href="#"><span class="dollar">$26.00</span></a>
+
+                         <button class="add-to1" onclick="cartAddProductHandler({id:'12',name:'Mango  People  T-shirt',price:'26.00',img:'img/Rectangle%205%20copy.png'})">
+                             <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                         </button>
+                     </div>
+
+                     <div class="block">
+                         <a href="#" class="image">
+                             <img id="13" src="img/2-layers%20(1).png" alt="" />
+                         </a>
+
+                         <a href="#" class="clothes">Mango  People  T-shirt</a>
+                         <a href="#"><span class="dollar">$26.00</span></a>
+
+                         <button class="add-to1" onclick="cartAddProductHandler({id:'13',name:'Mango  People  T-shirt',price:'26.00',img:'img/2-layers%20(1).png'})">
+                             <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                         </button>
+                     </div>
+
+                     <div class="block">
+                         <a href="#" class="image">
+                             <img id="14" src="img/tr.png" alt="" />
+                         </a>
+
+                         <a href="#" class="clothes">Mango  People  T-shirt</a>
+                         <a href="#"><span class="dollar">$26.00</span></a>
+
+                         <button class="add-to1" onclick="cartAddProductHandler({id:'14',name:'Mango  People  T-shirt',price:'26.00',img:'img/tr.png'})">
+                             <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                         </button>
+                     </div>
+
+                     <div class="block">
+                         <a href="#" class="image">
+                             <img id="15" src="img/layer-3.png" alt="" />
+                         </a>
+
+                         <a href="#" class="clothes">Mango  People  T-shirt</a>
+                         <a href="#"><span class="dollar">$26.00</span></a>
+
+                         <button class="add-to1" onclick="cartAddProductHandler({id:'15',name:'Mango  People  T-shirt',price:'26.00',img:'img/layer-3.png'})">
+                             <i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add to Cart
+                         </button>
+                     </div>
+
+                 </div>
+
+             </div>
+
+         </div>
+     </section>
+
+    <div class="subscribe">
+  <div class="subscribe1">
+
+    <div class="burhan">
+      <img src="img/layer-40.png" alt="" class="head">
+      <div class="text3">
+        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+        <h3>Bin Burhan</h3>
+        <h4>Dhaka, Bd</h4>
+        <div class="angles">
+         <a href="#"><div class="angle22"></div></a>
+          <a href="#"><div class="angle22 angle23"></div></a>
+          <a href="#"><div class="angle22"></div></a>
+      </div>
+      </div>
+    </div>
+
+    <div class="letter">
+      <div class="text4">
+        <h2>Subscribe</h2>
+        <h3> FOR OUR NEWLETTER AND PROMOTION</h3></div>
+      <form class="forma" action="#">
+        <input class="enter" type="email" placeholder="Enter Your Email">
+        <button class="send" type="submit">Subscribe</button>
+      </form>
+
+    </div>
+  </div>
+
+</div>
+
+          
+   
+    </div>
+    
+    <footer class="footer">
+              <div class="container footer1">
+               <div class="information">
+                <div class="text5"><div class="down-top"><a href="index.html" class="logo"><img src="img/logo.png" alt="логотип"></a> 
+                    <a href="index.html"><span class="bran">BRAN</span><span class="brand">D</span></a></div> 
+                <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+
+<p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+
+</p></div>
+             <nav>
+                 <div class="navigation1">
+                     <div class="menuu1 company1">
+                         <a href="#" class="special">COMPANY</a>
+                         <ul class="menuu">
+                             <li><a href="index.html">Home</a></li>
+                             <li><a href="#">Shop</a></li>
+                             <li><a href="#">About</a></li>
+                             <li><a href="#">How It Works</a></li>
+                             <li><a href="#">Contact</a></li>
+                         </ul>
+                     </div>
+
+                     <div class="menuu1 info">
+                         <a href="#" class="special">INFORMATION</a>
+                         <ul class=" menuu">
+                             <li><a href="#">Tearms & Condition</a></li>
+                             <li><a href="#">Privacy Policy</a></li>
+                             <li><a href="#">How to Buy</a></li>
+                             <li><a href="#">How to Sell</a></li>
+                             <li><a href="#">Promotion</a></li>
+                         </ul>
+                     </div>
+
+                     <div class="menuu1">
+                         <a href="#" class="special">SHOP CATEGORY</a>
+                         <ul class="menuu">
+                             <li><a href="product.html">Men</a></li>
+                             <li><a href="single_page.html">Women</a></li>
+                             <li><a href="#">Child</a></li>
+                             <li><a href="#">Apparel</a></li>
+                             <li><a href="#">Brows All</a></li>
+                         </ul>
+                     </div>
+                 </div>
+             </nav>
+                           </div>
+                           </div>
+            <div class="down">
+               <div class="container down1">
+                <p>© 2017  Brand  All Rights Reserved.</p>
+                <div class="icons"><a href="https://www.facebook.com/" target="_blank"><div class="fb">f</div></a>
+                <a href="https://twitter.com/?lang=ru" target="_blank"><div class="bird"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+                <a href="https://ru.linkedin.com/" target="_blank"><div class="in">in</div></a>
+                <a href="https://ru.pinterest.com/" target="_blank"><div class="fb"><i class="fa fa-pinterest-p" aria-hidden="true"></i></div></a>
+                <a href="https://plus.google.com/" target="_blank"><div class="fb"><i class="fa fa-google-plus" aria-hidden="true"></i></div></a></div></div>
+            </div>
+                           
+          </footer></div>
+<script src="js/carousel.js"></script>
+<script src="js/cart-main.js"></script>
+    </body>
+</html>
